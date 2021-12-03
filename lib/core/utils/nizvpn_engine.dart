@@ -1,20 +1,17 @@
-/*
- * Copyright (c) 2020 Mochamad Nizwar Syafuan
- * Distributed under the GNU GPL v2 with additional terms. For full terms see the file doc/LICENSE.txt
- */
 
+// @dart=2.9
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:open_nizvpn/core/models/dnsConfig.dart';
+import 'package:safebrowse/core/models/dnsConfig.dart';
 import '../models/vpnStatus.dart';
 import '../models/vpnConfig.dart';
 import 'package:package_info/package_info.dart';
 
 class NizVpn {
   ///Channel to native
-  static final String _eventChannelVpnStage = "id.nizwar.nvpn/vpnstage";
-  static final String _eventChannelVpnStatus = "id.nizwar.nvpn/vpnstatus";
-  static final String _methodChannelVpnControl = "id.nizwar.nvpn/vpncontrol";
+  static final String _eventChannelVpnStage = "com.shelando.safebrowse/vpnstage";
+  static final String _eventChannelVpnStatus = "com.shelando.safebrowse/vpnstatus";
+  static final String _methodChannelVpnControl = "com.shelando.safebrowse/vpncontrol";
 
   ///Snapshot of VPN Connection Stage
   static Stream<String> vpnStageSnapshot() => EventChannel(_eventChannelVpnStage).receiveBroadcastStream().cast();

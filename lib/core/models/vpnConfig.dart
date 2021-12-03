@@ -2,7 +2,7 @@
  * Copyright (c) 2020 Mochamad Nizwar Syafuan
  * Distributed under the GNU GPL v2 with additional terms. For full terms see the file doc/LICENSE.txt
  */
-
+// @dart=2.9
 import 'package:flutter/material.dart';
 
 import 'model.dart';
@@ -12,13 +12,16 @@ class VpnConfig extends Model {
     @required this.name,
     this.username,
     this.password,
+    this.flag,
     @required this.config,
+    
   });
 
-  String name;
+ String name;
   String username;
   String password;
   String config;
+  String flag;
 
   factory VpnConfig.fromJson(Map<String, dynamic> json) => VpnConfig(
         name: json["name"] == null ? null : json["name"],

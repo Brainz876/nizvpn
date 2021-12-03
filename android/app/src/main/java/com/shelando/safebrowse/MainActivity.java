@@ -3,7 +3,7 @@
  * Distributed under the GNU GPL v2 with additional terms. For full terms see the file doc/LICENSE.txt
  */
 
-package id.nizwar.open_nizvpn;
+package com.shelando.safebrowse;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -48,9 +48,9 @@ public class MainActivity extends FlutterActivity {
     private EventChannel.EventSink vpnStageSink;
     private EventChannel.EventSink vpnStatusSink;
 
-    private static final String EVENT_CHANNEL_VPN_STAGE = "id.nizwar.nvpn/vpnstage";
-    private static final String EVENT_CHANNEL_VPN_STATUS = "id.nizwar.nvpn/vpnstatus";
-    private static final String METHOD_CHANNEL_VPN_CONTROL = "id.nizwar.nvpn/vpncontrol";
+    private static final String EVENT_CHANNEL_VPN_STAGE = "com.shelando.safebrowse/vpnstage";
+    private static final String EVENT_CHANNEL_VPN_STATUS = "com.shelando.safebrowse/vpnstatus";
+    private static final String METHOD_CHANNEL_VPN_CONTROL = "com.shelando.safebrowse/vpncontrol";
     private static final int VPN_REQUEST_ID = 1;
     private static final String TAG = "NVPN";
 

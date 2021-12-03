@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1048676462058",
+    "project_id": "vpnapp-b168b",
+    "storage_bucket": "vpnapp-b168b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048676462058:android:6890a0afba2284f91c1693",
+        "android_client_info": {
+          "package_name": "com.shelando.safebrowse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048676462058-gsebalhlf5afgrqn4dc40bet8dvsudrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-UT6mWsJ-qV6NYLAJBuG5plcdBOmqQO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048676462058-gsebalhlf5afgrqn4dc40bet8dvsudrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048676462058:android:b6884155144641af1c1693",
+        "android_client_info": {
+          "package_name": "id.nizwar.open_nizvpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048676462058-gsebalhlf5afgrqn4dc40bet8dvsudrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-UT6mWsJ-qV6NYLAJBuG5plcdBOmqQO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048676462058-gsebalhlf5afgrqn4dc40bet8dvsudrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
